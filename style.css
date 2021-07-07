@@ -27,16 +27,22 @@ p {
 .banner-area {
     display: flex;
     align-items: center;
-
-
 }
 
 
 .link-button {
     text-decoration: none;
-    background-image: linear-gradient(#ED937F, #FF5733);
+    background-image: linear-gradient(orange, #FF5733);
     padding: 8px;
     border-radius: 20px;
     color: white;
     font-weight: 700;
+}
+
+.middle-area {
+    display: flex;
+    align-items: center;
+    background-image: url(images/shapes/Frame\ 58.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
 }
